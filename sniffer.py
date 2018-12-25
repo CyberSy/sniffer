@@ -2,7 +2,7 @@
 import os
 
 # host to listen on
-host = "127.0.01"
+host = "127.0.0.1"
 
 # create a raw socket and bind it to the public interface
 if os.name == "nt":
